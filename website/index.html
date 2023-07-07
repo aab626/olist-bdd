@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Explorador de Datos E-Commerce Brasil</title>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+</head>
+<body>
+    <h1>
+        Explorador de Datos E-Commerce Brasil
+    </h1>
+
+    <div id="content">
+        <form action="query1.php" method="get">
+            <fieldset>
+                <legend> Precio promedio por categoría </legend>
+                <!-- Text input-->
+                <div>
+                    <label> Categoría de Producto </label>
+                    <input name="pcategory">
+                </div>
+
+                <!-- Button -->
+                <div>
+                    <input type="submit" value="Consultar">
+                </div>
+
+            </fieldset>
+        </form>
+    </div>
+
+    <div id="content">
+        <form action="query2.php" method="get">
+            <fieldset>
+                <legend> Precio promedio por ciudad </legend>
+
+                <!-- Text input-->
+                <div>
+                    <label> Ciudad </label>
+                    <input name="city">
+                </div>
+
+                <!-- Button -->
+                <div>
+                    <input type="submit" value="Consultar">
+                </div>
+
+            </fieldset>
+        </form>
+    </div>
+
+    <div id="content">
+        <form action="query3.php" method="get">
+            <fieldset>
+                <legend> Vendedor con más ventas por categoría </legend>
+
+                <!-- Text input-->
+                <div>
+                    <label> Categoría de Producto </label>
+                    <input name="pcategory">
+                </div>
+
+                <!-- Button -->
+                <div>
+                    <input type="submit" value="Consultar">
+                </div>
+
+            </fieldset>
+        </form>
+    </div>
+
+
+    <div id="content">
+        <form action="query4.php" method="get">
+            <fieldset>
+                <legend> Categorías con mayor retorno </legend>
+
+                <!-- Text input-->
+                <div>
+                    <label> Ciudad </label>
+                    <input name="city">
+                </div>
+
+                <!-- Button -->
+                <div>
+                    <input type="submit" value="Consultar">
+                </div>
+
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
